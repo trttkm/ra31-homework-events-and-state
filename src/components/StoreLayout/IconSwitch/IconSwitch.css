@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+.icon-switch.material-icons {
+  color: #777777;
+  align-self: flex-end;
+  margin: 20px 60px;
+}

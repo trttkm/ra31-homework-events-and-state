@@ -1,0 +1,16 @@
+.toolbar {
+  padding: 10px;
+}
+
+.toolbar-btn {
+  padding:          5px 12px;
+  margin-right:     5px;
+  background-color: #ffffff;
+  color:            #555555;
+  border:           1px solid #555555;
+}
+
+.toolbar-btn.selected {
+  background-color: #555555;
+  color:            #ffffff;
+}

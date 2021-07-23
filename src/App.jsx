@@ -1,12 +1,14 @@
-import { EmojiBoard } from './components/EmojiBoard/EmojiBoard';
-import { LikeButton } from './components/LikeButton/LikeButton';
+import React from 'react';
+import { Header } from './components/Header';
+import AppRouter from './routes/AppRouter';
+import './App.css';
 
 function App() {
   return (
-    <div>
-      <LikeButton />
-      <EmojiBoard />
-    </div>
+    <>
+      <Header />
+      <AppRouter />
+    </>
   );
 }
 

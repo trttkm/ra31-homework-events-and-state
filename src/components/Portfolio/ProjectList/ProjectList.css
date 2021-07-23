@@ -1,0 +1,17 @@
+/*
+
+не знаю, как сделать верстку
+как в макете - в три столбца,
+чтобы элементы строились сверху вниз
+
+*/
+
+.project-list {
+  display:        flex;
+  flex-direction: column;
+}
+
+.project-list-item {
+  margin: 10px;
+  width:  250px;
+}
