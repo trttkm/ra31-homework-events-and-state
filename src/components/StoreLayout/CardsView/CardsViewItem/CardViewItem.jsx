@@ -6,7 +6,7 @@ export function CardViewItem({ product }) {
     <div className="card-view-item">
       <div className="card-view-item__name">{product.name}</div>
       <div className="card-view-item__color">{product.color}</div>
-      <img className="card-view-item__image" src={product.img} alt={`${product.name} photo`} />
+      <img className="card-view-item__image" src={product.img} alt={product.name} />
       <div className="card-view-item__buy-block">
         <div className="card-view-item__price">${product.price}</div>
         <button className="card-view-item__button">ADD TO CART</button>

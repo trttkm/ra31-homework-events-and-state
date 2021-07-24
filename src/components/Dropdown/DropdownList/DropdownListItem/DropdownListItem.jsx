@@ -1,10 +1,10 @@
-import './DropdownListItem.css';
 import PropTypes from 'prop-types';
+import './DropdownListItem.css';
 
 export function DropdownListItem({ option, active, onSelect }) {
   return (
     <li className={active === option ? 'active' : ''}>
-      <a href="#" onClick={() => onSelect(option)}>{option}</a>
+      <button onClick={() => onSelect(option)}>{option}</button>
     </li>
   );
 }
