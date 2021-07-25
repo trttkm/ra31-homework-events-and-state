@@ -15,3 +15,7 @@ export function CardView({ products }) {
 CardView.propTypes = {
   products: PropTypes.array,
 };
+
+CardView.defaultProps = {
+  products: [],
+};

@@ -14,5 +14,5 @@ export function ListViewItem({ product }) {
 }
 
 ListViewItem.propTypes = {
-  product: PropTypes.object,
+  product: PropTypes.object.isRequired,
 };

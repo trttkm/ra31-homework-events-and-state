@@ -16,5 +16,5 @@ export function CardViewItem({ product }) {
 }
 
 CardViewItem.propTypes = {
-  product: PropTypes.object,
+  product: PropTypes.object.isRequired,
 };

@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import './IconSwitch.css'
+import './IconSwitch.css';
 
 export function IconSwitch({ icon, onSwitch }) {
   return (
@@ -10,6 +10,6 @@ export function IconSwitch({ icon, onSwitch }) {
 }
 
 IconSwitch.propTypes = {
-  icon: PropTypes.string,
-  onSwitch: PropTypes.func,
+  icon: PropTypes.string.isRequired,
+  onSwitch: PropTypes.func.isRequired,
 };

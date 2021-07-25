@@ -10,7 +10,11 @@ export function DropdownListItem({ option, active, onSelect }) {
 }
 
 DropdownListItem.propTypes = {
-  option: PropTypes.string,
+  option: PropTypes.string.isRequired,
   active: PropTypes.string,
-  onSelect: PropTypes.func,
+  onSelect: PropTypes.func.isRequired,
+};
+
+DropdownListItem.defaultProps = {
+  active: false,
 };

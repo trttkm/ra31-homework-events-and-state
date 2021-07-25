@@ -19,3 +19,7 @@ export function ProjectList({ projects }) {
 ProjectList.propTypes = {
   projects: PropTypes.array,
 };
+
+ProjectList.defaultProps = {
+  projects: [],
+};
